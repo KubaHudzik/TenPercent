@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Rest server for mySQL connection",
+  "main": "app.js",
+  "scripts": {
+    "run": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jakub Hudzik",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.1.0",
+    "express": "^4.16.3",
+    "mysql": "^2.15.0"
+  }
+}
